@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('example.jpg') no-repeat center center fixed;
+    background: url('/static/images/example.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -29,6 +29,10 @@ body {
    
 }
 
+.wrapper h2 {
+    font-size: 28px;
+}
+
 .wrapper .input-box {
     width: 100%;
     height: 50px;
@@ -40,6 +44,7 @@ input[type="password"]::-ms-reveal {
 }
 
 .input-box input {
+    text-align: left;
     width: 100%;
     height: 100%;
     background: transparent;
@@ -54,6 +59,7 @@ input[type="password"]::-ms-reveal {
 
 .input-box input::placeholder {
     color: #fff;
+    text-align: left;
 }
 
 .input-box i {
@@ -102,7 +108,7 @@ input[type="password"]::-ms-reveal {
 .wrapper .register-link {
     font-size: 14px;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .register-link a {
@@ -113,4 +119,16 @@ input[type="password"]::-ms-reveal {
 
 .register-link p a:hover {
     text-decoration: underline;
+}
+
+.error-message {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0 20px;
+    border: 2px solid rgba(255, 80, 80, 0.8);
+    border-radius: 15px;
+    background: rgba(255, 80, 80, 0.15);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
 }
