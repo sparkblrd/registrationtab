@@ -36,24 +36,6 @@ The project demonstrates the implementation of a complete user authentication fl
 - VS Code
 
 
-## 📂 Project Structure
-
-project/
-│
-├── app.py
-├── database.db
-│
-├── templates/
-│   ├── index.html
-│   └── register.html
-│
-├── static/
-│   ├── style.css
-│   └── images/
-│
-└── README.md
-
-
 ## ⚙️ Installation
 
   Clone the repository
